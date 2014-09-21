@@ -1,0 +1,10 @@
+application: tactile7713
+version: secureable
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /.*
+    script: mirror.app
+    secure: optional
